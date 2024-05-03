@@ -98,3 +98,11 @@ The image sensor outputs at four channels differentially. after each pixel, the 
 goes to 0mV differential value (maybe blacklevel compensation).
 Each side (positive and negative) is centered at ~1.4V and has 300-400mv Swing. The differential
 values range from -600mV to +600mV.
+
+## WiP -- Back engineering the Sensor connector board for deeper understanding of functinality
+
+Started an KiCad based back engineered schematic from the detail photos
+
+![bottom view of the Sensorboard](pictures/2d5_sensor_Platine_untere_Seite.png)
+![top view (sensor side)](pictures/2d5_sensor_Platine_Sensor_Seite.png)
+The schematic wwill be in [senor_board_back_engineered](connector_breakout/senor_board_back_engineered/) folder.
