@@ -107,4 +107,14 @@
     (thermal_bridge_angle 45) (tstamp d624651e-9df8-4c20-9eb0-562e3d4e3657))
   (pad "40" smd rect (at 2.8 4.75 270) (size 0.25 4) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp d9b7d02a-cef1-473d-9631-77b77386ff51))
+  (model "${KIPRJMOD}/custom_parts.pretty/axk6f40547y.igs" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+  (model "${KIPRJMOD}/custom_parts.pretty/axk5f40547y.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
