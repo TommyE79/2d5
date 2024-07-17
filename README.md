@@ -16,7 +16,9 @@ The sensor has 3 connectors:
 The stacking connectors have the same pitch (0.466mm - 0.475mm measured probably 0.5mm) and are likely of the same series.
 Mating height is ~1.5mm.
 
-* Panasonic AXK5F should be fitting (probably original)
+* Panasonic AXK5F should be fitting (probably original) [see Datasheet for details](interesting_datasheets/discon2013e_p5kf.pdf)
+  * AXK5F ==> Socket
+  * AXK6F ==> Header
 * TXGA FBB05001-F40S1003W5M / FBB05001-M40S1013W5M should fit (but is hard to obtain)
 * Atom-connector BTB050040-F1S03201 / BTB050040-M1S03201 should fit
 * XKB Connectivity X0511FVS-40B-LPV01 / X0511WVS-40A-LPV01 should fit and is on lcsc
@@ -91,6 +93,7 @@ some possible ADCs:
 | HMCAD1511     | 4        | 125                 | 8         | 13$     | only ADC; possibly same die as HMCAD1511 |
 
 There is a test-board with a HMCAD1511 in the [zynq-test-board/](zynq-test-board/) folder.
+![3d preview](zynq-test-board/zynq-test-board_3d_with_Sensor_board.jpg)
 
 # Analog output
 
